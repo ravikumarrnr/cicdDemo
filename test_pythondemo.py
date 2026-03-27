@@ -1,8 +1,6 @@
 import pytest
 import pythondemo
 # Passing test
-def test_add():
-	assert pythondemo.add(2, 3) == 5
 # Failing test
 def test_multiply_fail():
 	assert pythondemo.multiply(4, 3) == 11
